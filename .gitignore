@@ -1,0 +1,5 @@
+.claude/
+.vercel/
+site/.vercel/
+__pycache__/
+*.zip

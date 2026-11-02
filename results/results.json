@@ -1,0 +1,137 @@
+{
+  "n_images": 2640,
+  "n_writers": 55,
+  "n_extra_removed": 6,
+  "outliers_aspect": 102,
+  "outliers_ink": 61,
+  "split": {
+    "signers": {
+      "train": "39",
+      "validation": "8",
+      "test": "8"
+    },
+    "images": {
+      "train": "1872",
+      "validation": "384",
+      "test": "384"
+    },
+    "evaluated images": {
+      "train": "-",
+      "validation": "344",
+      "test": "344"
+    }
+  },
+  "test_queries": 344,
+  "background_cut": 247.0,
+  "background_rule_acc": 1.0,
+  "background_medians": {
+    "genuine": 239.0,
+    "forged": 254.0
+  },
+  "table": {
+    "Raw-image control (invalid)": {
+      "Accuracy": 1.0,
+      "Precision": 1.0,
+      "Recall": 1.0,
+      "F1": 1.0,
+      "ROC AUC": 1.0,
+      "FAR": 0.0,
+      "FRR": 0.0
+    },
+    "Reference CNN": {
+      "Accuracy": 0.7878,
+      "Precision": 0.8051,
+      "Recall": 0.8177,
+      "F1": 0.8114,
+      "ROC AUC": 0.8614,
+      "FAR": 0.1823,
+      "FRR": 0.25
+    },
+    "Single-image CNN": {
+      "Accuracy": 0.7006,
+      "Precision": 0.6943,
+      "Recall": 0.8281,
+      "F1": 0.7553,
+      "ROC AUC": 0.7916,
+      "FAR": 0.1719,
+      "FRR": 0.4605
+    },
+    "Random Forest": {
+      "Accuracy": 0.5814,
+      "Precision": 0.6379,
+      "Recall": 0.5781,
+      "F1": 0.6066,
+      "ROC AUC": 0.5638,
+      "FAR": 0.4219,
+      "FRR": 0.4145
+    },
+    "Reference SVM": {
+      "Accuracy": 0.5552,
+      "Precision": 0.5771,
+      "Recall": 0.7604,
+      "F1": 0.6562,
+      "ROC AUC": 0.6056,
+      "FAR": 0.2396,
+      "FRR": 0.7039
+    },
+    "SVM (RBF)": {
+      "Accuracy": 0.5465,
+      "Precision": 0.5957,
+      "Recall": 0.5833,
+      "F1": 0.5895,
+      "ROC AUC": 0.5739,
+      "FAR": 0.4167,
+      "FRR": 0.5
+    },
+    "Logistic Regression": {
+      "Accuracy": 0.4738,
+      "Precision": 0.5314,
+      "Recall": 0.4844,
+      "F1": 0.5068,
+      "ROC AUC": 0.4794,
+      "FAR": 0.5156,
+      "FRR": 0.5395
+    }
+  },
+  "confusion_matrix": [
+    [
+      114,
+      38
+    ],
+    [
+      35,
+      157
+    ]
+  ],
+  "per_writer": {
+    "29": 0.6046511627906976,
+    "46": 0.627906976744186,
+    "19": 0.6744186046511628,
+    "25": 0.7209302325581395,
+    "8": 0.8372093023255814,
+    "28": 0.9069767441860465,
+    "18": 0.9302325581395349,
+    "51": 1.0
+  },
+  "stability": {
+    "42": {
+      "Accuracy": 0.7878,
+      "F1": 0.8114,
+      "ROC AUC": 0.8614
+    },
+    "1": {
+      "Accuracy": 0.75,
+      "F1": 0.7784,
+      "ROC AUC": 0.8323
+    },
+    "2": {
+      "Accuracy": 0.7326,
+      "F1": 0.75,
+      "ROC AUC": 0.8066
+    }
+  },
+  "stability_mean": 0.756782945736434,
+  "stability_std": 0.02823411295413461,
+  "leak_acc": 0.7674418604651163,
+  "single_acc": 0.7005813953488372
+}
