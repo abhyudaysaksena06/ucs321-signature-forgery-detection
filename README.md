@@ -7,7 +7,7 @@ A CNN on raw CEDAR scans scores 100%, but so does a one-line brightness rule, be
 | Folder | Contents |
 |---|---|
 | `notebook/` | Colab notebook, executed with all outputs |
-| `report/` | Report 1 as PDF, plus an editable Word copy |
+| `report/` | Report 1 as PDF and Word, plus a shorter formal version in both formats |
 | `results/` | Metrics and figures from the notebook run |
 | `site/` | Static interactive dashboard, deployed on Vercel |
 | `scripts/` | Build scripts for the notebook, report and dashboard data |
