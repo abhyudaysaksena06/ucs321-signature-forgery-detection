@@ -3,3 +3,4 @@
 site/.vercel/
 __pycache__/
 *.zip
+dist/
